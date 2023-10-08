@@ -1,5 +1,5 @@
 from django.core.management.base import  BaseCommand
-from home_work_2_3.models import Product
+from testproj.home_work_2_3.models import Product
 
 class Command(BaseCommand):
     help = "Delete product by ID"

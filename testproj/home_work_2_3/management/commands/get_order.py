@@ -1,5 +1,5 @@
 from django.core.management.base import  BaseCommand
-from home_work_2_3.models import Order
+from testproj.home_work_2_3.models import Order
 
 class Command(BaseCommand):
     help = "Get order by ID"
