@@ -1,8 +1,11 @@
-import datetime
-
 from django import forms
 
 from testproj.home_work_2_3.models import Product
+from django import forms
+
+from testproj.home_work_2_3.models import Product
+
+
 class ProductFormWidget(forms.Form):
 
     name = forms.CharField(max_length=50, widget=forms.TextInput(

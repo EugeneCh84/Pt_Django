@@ -1,11 +1,11 @@
 import logging
 
 from django.core.files.storage import FileSystemStorage
-from django.shortcuts import render
-from testproj.home_work_4.forms import ProductFormWidget, ProductChoiceForm
-from testproj.home_work_2_3.models import Product
-
 from django.shortcuts import redirect
+from django.shortcuts import render
+
+from testproj.home_work_2_3.models import Product
+from testproj.home_work_4.forms import ProductFormWidget, ProductChoiceForm
 
 logger = logging.getLogger(__name__)
 
